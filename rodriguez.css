@@ -1,0 +1,106 @@
+@import "https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap";
+
+@import "https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&display=swap";
+
+.box {
+    margin: auto;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+html { 
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-style: bold;
+}
+h1 {
+    font-size: 50px;
+    font-family: "Lato", Arial, sans-serif;
+    color: #fff;
+}
+.legend1 {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-style: bold;
+    color: #fff;
+}
+.legend2 {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-style: bold;
+    color: #fff;
+}
+.legend3 {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-style: bold;
+    color: #fff;
+}
+fieldset{ 
+    transition: all 0.5s ease;
+    width: auto;
+}
+fieldset:before {
+    border: rgba(49, 44, 44, 0.2);
+}
+fieldset:hover {
+    transform: scale(1.08);
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+    border: 1px solid white;   
+    color: #000000;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    position: relative;
+    animation: all 0.5s ease;
+}
+
+textarea:focus, input:focus, select:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+textarea, input, select {
+    background-color: rgba(255, 255, 255, 0.2);
+} 
+
+body {
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change{
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+     }
+}
+
+button {
+    border-radius: 4px;
+    background-color: rgba(49, 44, 44, 0.2);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    width: 150px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    margin: 5px;
+}
+#delAddress{
+ width: auto;   
+}
+
+button:hover{
+    transform: scale(1.1);
+    color: black;
+    background:linear-gradient(-45deg, #23A6D5, #23D5AB) ;
+}
